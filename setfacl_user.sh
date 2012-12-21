@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Add a user with full acces to a file/folder and its children
+
 USER="$1"
 TARGET="$2"
 
