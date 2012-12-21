@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Makes a file/folder accessible only by its owner
+
 TARGET="$1"
 
 if [ ! -e "$TARGET" ]; then
