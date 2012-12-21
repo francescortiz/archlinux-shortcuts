@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Propagate the applied acl on a folder to all its children
+
 TARGET="$1"
 
 if [ ! -e "$TARGET" ]; then
