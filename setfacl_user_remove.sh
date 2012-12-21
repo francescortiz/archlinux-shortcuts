@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Remove a user from a file/folder and its children acl
+
 USER="$1"
 TARGET="$2"
 
